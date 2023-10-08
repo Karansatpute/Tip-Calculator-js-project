@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+.tip-img {
+    width: 100%;
+    padding: 2px 2px;
+    padding-top: 0.5px;
+    
+}
+.tip-container {
+    max-width: 500px;
+    height: 660px;
+    background-color: aliceblue;
+    padding: 25px;
+    box-shadow: 1px 1px 15px 1px rgb(70, 64, 64);
+    text-transform: capitalize;
+}
+h2 {
+    text-align: center;
+    font-size: 24px; 
+    color: #1d2596; 
+    margin-top: 10px; 
+    text-transform: uppercase;    
+}
+label {
+    display: block;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+input {
+    width: 500px;
+    padding: 8px 0;
+    font-size: 18px;
+}
+.calbtn{
+    margin-top: 6px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;   
+}
+.calbtn:hover {
+    background-color: #0056b3;
+}
